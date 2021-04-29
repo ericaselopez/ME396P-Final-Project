@@ -7,4 +7,4 @@ Under the Training Data branch, you can find the Reddit data (april20toapril21_r
 
 If you would like to pull data from Reddit yourself, download the searchreddit.py file. You will need to create a client ID, client secret, and user agent yourself by registering an application on Reddit. Go here for the instructions on how to do so (https://praw.readthedocs.io/en/latest/getting_started/quick_start.html) and here to register your app (https://www.reddit.com/prefs/apps/).
 
-2. Train your model
+Step 2. Train your model
