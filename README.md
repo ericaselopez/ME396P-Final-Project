@@ -11,7 +11,10 @@ Step 2. Build and train your model
 
 Once you get the Reddit data and Stock data for TSLA from the training data folder, you can use LSTM_Prediction.py code to run it and traing the LSTM and get your predictions. You can change the Epoch, number of nodes in LSTM layer, number of Training and Testing percentage, etc. and see the results.
 
-You can also choose to have Reddit data as your training data or closing price as your training data (X values).
+You can also choose to have Reddit data as your training data or closing price as your training data (X values). Google Trend data leads to very similar results to Reddit data. If you want to test that as well, we provided the data in the training data folder.
+
+If you want to do this prediction without transformation of the data, you need to comment the codes for transformation and inverse transformation.
+Also, if you want to have both Reddit and Stock as your data, you can combine them easily and train the model.
 
 The loss function is chosed to be mean square error and you can change it to your favorite loss function if you want.
 
