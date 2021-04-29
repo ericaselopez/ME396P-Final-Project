@@ -8,3 +8,7 @@ Under the Training Data branch, you can find the Reddit data (april20toapril21_r
 If you would like to pull data from Reddit yourself, download the searchreddit.py file. You will need to create a client ID, client secret, and user agent yourself by registering an application on Reddit. Go here for the instructions on how to do so (https://praw.readthedocs.io/en/latest/getting_started/quick_start.html) and here to register your app (https://www.reddit.com/prefs/apps/).
 
 Step 2. Build and train your model
+Once you get the Reddit data and Stock data for TSLA from the training data folder, you can use LSTM_Prediction.py code to run it and traing the LSTM and get your predictions. You can change the Epoch, number of nodes in LSTM layer, number of Training and Testing percentage, etc. and see the results.
+You can also choose to have Reddit data as your training data or closing price as your training data (X values).
+The loss function is chosed to be mean square error and you can change it to your favorite loss function if you want.
+At the end of the code, we plot the true values and predicted values so that we compare the accuracy of the prediction visually.
