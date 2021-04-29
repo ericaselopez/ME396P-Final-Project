@@ -5,7 +5,8 @@ import csv
 
 # You must get your own unique client_id, client_secret, and user_agent by registering an application with Reddit
 # See the ReadMe on this project's repository for more information
-r = praw.Reddit(client_id='X1WJFeK8raib6w', client_secret='SF9E4uS0nay32qDKr8W_V7-5u7JCKA', user_agent='ME396P project')
+# Paste the appropriate IDs in the empty quotes
+r = praw.Reddit(client_id='', client_secret='', user_agent='')
 api = PushshiftAPI(r)
 
 # Replace 'placeholder.csv' with the name of the .csv you would like to write to
