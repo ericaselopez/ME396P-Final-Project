@@ -5,7 +5,8 @@ Step 1: Download the training data
 
 Under the Training Data branch, you can find the Reddit data (april20toapril21_redditdata.csv) and the TSLA stock price data (TSLAstockdata.csv). We have also included the Google Trends data (googletrendsdata.csv), though we did not use it in our final version of our model.
 
-If you would like to pull data from Reddit yourself, download the searchreddit.py file. You will need to create a client ID, client secret, and user agent yourself by registering an application on Reddit. Go here for the instructions on how to do so (https://praw.readthedocs.io/en/latest/getting_started/quick_start.html) and here to register your app (https://www.reddit.com/prefs/apps/).
+If you would like to pull data from Reddit yourself, download the searchreddit.py file. You will need to download two packages, PRAW and PSAW, using pip install or conda install. For more guidance, these links may be helpful: https://praw.readthedocs.io/en/latest/getting_started/installation.html, https://pypi.org/project/psaw/.
+You will also need to create a client ID, client secret, and user agent yourself by registering an application on Reddit. Go here for the instructions on how to do so (https://praw.readthedocs.io/en/latest/getting_started/quick_start.html) and here to register your app (https://www.reddit.com/prefs/apps/).
 
 
 
